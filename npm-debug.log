@@ -1,0 +1,1001 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/home/protech/kurento/kurento-composite-conference-recording-nodejs',
+5 verbose install   [ 'express', 'kurento-client', 'minimist', 'ws', 'bower' ] ]
+6 info preinstall kurento-composite-node-example@5.1.1-dev
+7 verbose readDependencies using package.json deps
+8 verbose already installed skipping minimist@^1.1.0 /home/protech/kurento/kurento-composite-conference-recording-nodejs
+9 verbose already installed skipping ws@~0.4.32 /home/protech/kurento/kurento-composite-conference-recording-nodejs
+10 verbose already installed skipping bower@^1.3.12 /home/protech/kurento/kurento-composite-conference-recording-nodejs
+11 verbose cache add [ 'express@~3.2.6', null ]
+12 verbose cache add name=undefined spec="express@~3.2.6" args=["express@~3.2.6",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'express@~3.2.6',
+13 verbose parsed url   path: 'express@~3.2.6',
+13 verbose parsed url   href: 'express@~3.2.6' }
+14 verbose cache add name="express" spec="~3.2.6" args=["express","~3.2.6"]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: '~3.2.6',
+15 verbose parsed url   path: '~3.2.6',
+15 verbose parsed url   href: '~3.2.6' }
+16 verbose addNamed [ 'express', '~3.2.6' ]
+17 verbose addNamed [ null, '>=3.2.6-0 <3.3.0-0' ]
+18 verbose already installed skipping kurento-client@5.1.0 /home/protech/kurento/kurento-composite-conference-recording-nodejs
+19 silly lockFile 0b14f64a-express-3-2-6 express@~3.2.6
+20 verbose lock express@~3.2.6 /home/protech/.npm/0b14f64a-express-3-2-6.lock
+21 silly addNameRange { name: 'express', range: '>=3.2.6-0 <3.3.0-0', hasData: false }
+22 verbose url raw express
+23 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+24 verbose url resolved https://registry.npmjs.org/express
+25 info trying registry request attempt 1 at 04:08:05
+26 verbose etag "7ZT86HCPVRVF0GNAYP3IDUF5V"
+27 http GET https://registry.npmjs.org/express
+28 http 304 https://registry.npmjs.org/express
+29 silly registry.get cb [ 304,
+29 silly registry.get   { date: 'Wed, 06 Apr 2016 09:07:58 GMT',
+29 silly registry.get     via: '1.1 varnish',
+29 silly registry.get     'cache-control': 'max-age=300',
+29 silly registry.get     etag: '"7ZT86HCPVRVF0GNAYP3IDUF5V"',
+29 silly registry.get     age: '140',
+29 silly registry.get     connection: 'keep-alive',
+29 silly registry.get     'x-served-by': 'cache-dfw1827-DFW',
+29 silly registry.get     'x-cache': 'HIT',
+29 silly registry.get     'x-cache-hits': '2',
+29 silly registry.get     'x-timer': 'S1459933678.501795,VS0,VE0',
+29 silly registry.get     vary: 'Accept-Encoding' } ]
+30 verbose etag express from cache
+31 silly addNameRange number 2 { name: 'express', range: '>=3.2.6-0 <3.3.0-0', hasData: true }
+32 silly addNameRange versions [ 'express',
+32 silly addNameRange   [ '0.14.0',
+32 silly addNameRange     '0.14.1',
+32 silly addNameRange     '1.0.0',
+32 silly addNameRange     '1.0.1',
+32 silly addNameRange     '1.0.2',
+32 silly addNameRange     '1.0.3',
+32 silly addNameRange     '1.0.4',
+32 silly addNameRange     '1.0.5',
+32 silly addNameRange     '1.0.6',
+32 silly addNameRange     '1.0.7',
+32 silly addNameRange     '1.0.8',
+32 silly addNameRange     '2.0.0',
+32 silly addNameRange     '2.1.0',
+32 silly addNameRange     '2.1.1',
+32 silly addNameRange     '2.2.0',
+32 silly addNameRange     '2.2.1',
+32 silly addNameRange     '2.2.2',
+32 silly addNameRange     '2.3.0',
+32 silly addNameRange     '2.3.1',
+32 silly addNameRange     '2.3.2',
+32 silly addNameRange     '2.3.3',
+32 silly addNameRange     '2.3.4',
+32 silly addNameRange     '2.3.5',
+32 silly addNameRange     '2.3.6',
+32 silly addNameRange     '2.3.7',
+32 silly addNameRange     '2.3.8',
+32 silly addNameRange     '2.3.9',
+32 silly addNameRange     '2.3.10',
+32 silly addNameRange     '2.3.11',
+32 silly addNameRange     '2.3.12',
+32 silly addNameRange     '2.4.0',
+32 silly addNameRange     '2.4.1',
+32 silly addNameRange     '2.4.2',
+32 silly addNameRange     '2.4.3',
+32 silly addNameRange     '2.4.4',
+32 silly addNameRange     '2.4.5',
+32 silly addNameRange     '2.4.6',
+32 silly addNameRange     '2.4.7',
+32 silly addNameRange     '2.5.0',
+32 silly addNameRange     '2.5.1',
+32 silly addNameRange     '2.5.2',
+32 silly addNameRange     '2.5.3',
+32 silly addNameRange     '2.5.4',
+32 silly addNameRange     '2.5.5',
+32 silly addNameRange     '2.5.6',
+32 silly addNameRange     '2.5.7',
+32 silly addNameRange     '2.5.8',
+32 silly addNameRange     '2.5.9',
+32 silly addNameRange     '2.5.10',
+32 silly addNameRange     '2.5.11',
+32 silly addNameRange     '3.0.0',
+32 silly addNameRange     '3.0.1',
+32 silly addNameRange     '3.0.2',
+32 silly addNameRange     '3.0.3',
+32 silly addNameRange     '3.0.4',
+32 silly addNameRange     '3.0.5',
+32 silly addNameRange     '3.0.6',
+32 silly addNameRange     '3.1.0',
+32 silly addNameRange     '3.1.1',
+32 silly addNameRange     '3.1.2',
+32 silly addNameRange     '3.2.0',
+32 silly addNameRange     '3.2.1',
+32 silly addNameRange     '3.2.2',
+32 silly addNameRange     '3.2.3',
+32 silly addNameRange     '3.2.4',
+32 silly addNameRange     '3.2.5',
+32 silly addNameRange     '3.2.6',
+32 silly addNameRange     '3.3.0',
+32 silly addNameRange     '3.3.1',
+32 silly addNameRange     '3.3.2',
+32 silly addNameRange     '3.3.3',
+32 silly addNameRange     '3.3.4',
+32 silly addNameRange     '3.3.5',
+32 silly addNameRange     '3.3.6',
+32 silly addNameRange     '1.0.0-beta',
+32 silly addNameRange     '1.0.0-beta2',
+32 silly addNameRange     '1.0.0-rc',
+32 silly addNameRange     '1.0.0-rc2',
+32 silly addNameRange     '1.0.0-rc3',
+32 silly addNameRange     '1.0.0-rc4',
+32 silly addNameRange     '2.0.0-beta',
+32 silly addNameRange     '2.0.0-beta2',
+32 silly addNameRange     '2.0.0-beta3',
+32 silly addNameRange     '2.0.0-rc',
+32 silly addNameRange     '2.0.0-rc2',
+32 silly addNameRange     '2.0.0-rc3',
+32 silly addNameRange     '3.0.0-alpha1',
+32 silly addNameRange     '3.0.0-alpha2',
+32 silly addNameRange     '3.0.0-alpha3',
+32 silly addNameRange     '3.0.0-alpha4',
+32 silly addNameRange     '3.0.0-alpha5',
+32 silly addNameRange     '3.0.0-beta1',
+32 silly addNameRange     '3.0.0-beta2',
+32 silly addNameRange     '3.0.0-beta3',
+32 silly addNameRange     '3.0.0-beta4',
+32 silly addNameRange     '3.0.0-beta6',
+32 silly addNameRange     '3.0.0-beta7',
+32 silly addNameRange     '3.0.0-rc1',
+32 silly addNameRange     '3.0.0-rc2',
+32 silly addNameRange     '3.0.0-rc3',
+32 silly addNameRange     '3.0.0-rc4',
+32 silly addNameRange     '3.0.0-rc5',
+32 silly addNameRange     '3.3.7',
+32 silly addNameRange     '3.3.8',
+32 silly addNameRange     '3.4.0',
+32 silly addNameRange     '3.4.1',
+32 silly addNameRange     '3.4.2',
+32 silly addNameRange     '3.4.3',
+32 silly addNameRange     '3.4.4',
+32 silly addNameRange     '3.4.5',
+32 silly addNameRange     '3.4.6',
+32 silly addNameRange     '3.4.7',
+32 silly addNameRange     '3.4.8',
+32 silly addNameRange     '4.0.0-rc1',
+32 silly addNameRange     '4.0.0-rc2',
+32 silly addNameRange     '3.5.0',
+32 silly addNameRange     '4.0.0-rc3',
+32 silly addNameRange     '4.0.0-rc4',
+32 silly addNameRange     '3.5.1',
+32 silly addNameRange     '4.0.0',
+32 silly addNameRange     '3.5.2',
+32 silly addNameRange     '4.1.0',
+32 silly addNameRange     '4.1.1',
+32 silly addNameRange     '3.5.3',
+32 silly addNameRange     '4.1.2',
+32 silly addNameRange     '3.6.0',
+32 silly addNameRange     '4.2.0',
+32 silly addNameRange     '3.7.0',
+32 silly addNameRange     '3.8.0',
+32 silly addNameRange     '4.3.0',
+32 silly addNameRange     '4.3.1',
+32 silly addNameRange     '3.8.1',
+32 silly addNameRange     '4.3.2',
+32 silly addNameRange     '3.9.0',
+32 silly addNameRange     '4.4.0',
+32 silly addNameRange     '4.4.1',
+32 silly addNameRange     '3.10.0',
+32 silly addNameRange     '3.10.1',
+32 silly addNameRange     '3.10.2',
+32 silly addNameRange     '3.10.3',
+32 silly addNameRange     '3.10.4',
+32 silly addNameRange     '4.4.2',
+32 silly addNameRange     '3.10.5',
+32 silly addNameRange     '4.4.3',
+32 silly addNameRange     '3.11.0',
+32 silly addNameRange     '4.4.4',
+32 silly addNameRange     '3.12.0',
+32 silly addNameRange     '3.12.1',
+32 silly addNameRange     '4.4.5',
+32 silly addNameRange     '3.13.0',
+32 silly addNameRange     '4.5.0',
+32 silly addNameRange     '4.5.1',
+32 silly addNameRange     '3.14.0',
+32 silly addNameRange     '4.6.0',
+32 silly addNameRange     '4.6.1',
+32 silly addNameRange     '3.15.0',
+32 silly addNameRange     '4.7.0',
+32 silly addNameRange     '3.15.1',
+32 silly addNameRange     '4.7.1',
+32 silly addNameRange     '3.15.2',
+32 silly addNameRange     '4.7.2',
+32 silly addNameRange     '4.7.3',
+32 silly addNameRange     '3.15.3',
+32 silly addNameRange     '4.7.4',
+32 silly addNameRange     '3.16.0',
+32 silly addNameRange     '4.8.0',
+32 silly addNameRange     '3.16.1',
+32 silly addNameRange     '4.8.1',
+32 silly addNameRange     '3.16.2',
+32 silly addNameRange     '4.8.2',
+32 silly addNameRange     '3.16.3',
+32 silly addNameRange     '3.16.4',
+32 silly addNameRange     '4.8.3',
+32 silly addNameRange     '3.16.5',
+32 silly addNameRange     '3.16.6',
+32 silly addNameRange     '4.8.4',
+32 silly addNameRange     '3.16.7',
+32 silly addNameRange     '4.8.5',
+32 silly addNameRange     '3.16.8',
+32 silly addNameRange     '4.8.6',
+32 silly addNameRange     '3.16.9',
+32 silly addNameRange     '4.8.7',
+32 silly addNameRange     '3.16.10',
+32 silly addNameRange     '4.8.8',
+32 silly addNameRange     '3.17.0',
+32 silly addNameRange     '3.17.1',
+32 silly addNameRange     '4.9.0',
+32 silly addNameRange     '3.17.2',
+32 silly addNameRange     '4.9.1',
+32 silly addNameRange     '4.9.2',
+32 silly addNameRange     '3.17.3',
+32 silly addNameRange     '4.9.3',
+32 silly addNameRange     '3.17.4',
+32 silly addNameRange     '4.9.4',
+32 silly addNameRange     '3.17.5',
+32 silly addNameRange     '4.9.5',
+32 silly addNameRange     '3.17.6',
+32 silly addNameRange     '3.17.7',
+32 silly addNameRange     '4.9.6',
+32 silly addNameRange     '4.9.7',
+32 silly addNameRange     '3.17.8',
+32 silly addNameRange     '4.9.8',
+32 silly addNameRange     '3.18.0',
+32 silly addNameRange     '3.18.1',
+32 silly addNameRange     '4.10.0',
+32 silly addNameRange     '3.18.2',
+32 silly addNameRange     '4.10.1',
+32 silly addNameRange     '5.0.0-alpha.1',
+32 silly addNameRange     '3.18.3',
+32 silly addNameRange     '4.10.2',
+32 silly addNameRange     '3.18.4',
+32 silly addNameRange     '4.10.3',
+32 silly addNameRange     '4.10.4',
+32 silly addNameRange     '4.10.5',
+32 silly addNameRange     '3.18.5',
+32 silly addNameRange     '3.18.6',
+32 silly addNameRange     '4.10.6',
+32 silly addNameRange     '4.10.7',
+32 silly addNameRange     '3.19.0',
+32 silly addNameRange     '4.10.8',
+32 silly addNameRange     '4.11.0',
+32 silly addNameRange     '3.19.1',
+32 silly addNameRange     '4.11.1',
+32 silly addNameRange     '3.19.2',
+32 silly addNameRange     '4.11.2',
+32 silly addNameRange     '3.20.0',
+32 silly addNameRange     '4.12.0',
+32 silly addNameRange     '3.20.1',
+32 silly addNameRange     '4.12.1',
+32 silly addNameRange     '4.12.2',
+32 silly addNameRange     '3.20.2',
+32 silly addNameRange     '4.12.3',
+32 silly addNameRange     '3.20.3',
+32 silly addNameRange     '4.12.4',
+32 silly addNameRange     '3.21.0',
+32 silly addNameRange     '4.13.0',
+32 silly addNameRange     '3.21.1',
+32 silly addNameRange     '4.13.1',
+32 silly addNameRange     '5.0.0-alpha.2',
+32 silly addNameRange     '3.21.2',
+32 silly addNameRange     '4.13.2',
+32 silly addNameRange     '4.13.3',
+32 silly addNameRange     '4.13.4' ] ]
+33 verbose addNamed [ 'express', '3.2.6' ]
+34 verbose addNamed [ '3.2.6', '3.2.6' ]
+35 silly lockFile fdae4232-express-3-2-6 express@3.2.6
+36 verbose lock express@3.2.6 /home/protech/.npm/fdae4232-express-3-2-6.lock
+37 silly lockFile fdae4232-express-3-2-6 express@3.2.6
+38 silly lockFile fdae4232-express-3-2-6 express@3.2.6
+39 silly lockFile 0b14f64a-express-3-2-6 express@~3.2.6
+40 silly lockFile 0b14f64a-express-3-2-6 express@~3.2.6
+41 silly resolved [ { name: 'express',
+41 silly resolved     description: 'Sinatra inspired web development framework',
+41 silly resolved     version: '3.2.6',
+41 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+41 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+41 silly resolved     dependencies:
+41 silly resolved      { connect: '2.7.11',
+41 silly resolved        commander: '0.6.1',
+41 silly resolved        'range-parser': '0.0.4',
+41 silly resolved        mkdirp: '0.3.4',
+41 silly resolved        cookie: '0.1.0',
+41 silly resolved        'buffer-crc32': '0.2.1',
+41 silly resolved        fresh: '0.1.0',
+41 silly resolved        methods: '0.0.1',
+41 silly resolved        send: '0.1.0',
+41 silly resolved        'cookie-signature': '1.0.1',
+41 silly resolved        debug: '*' },
+41 silly resolved     devDependencies:
+41 silly resolved      { ejs: '*',
+41 silly resolved        mocha: '*',
+41 silly resolved        jade: '*',
+41 silly resolved        hjs: '*',
+41 silly resolved        stylus: '*',
+41 silly resolved        should: '*',
+41 silly resolved        'connect-redis': '*',
+41 silly resolved        marked: '*',
+41 silly resolved        supertest: '0.6.0' },
+41 silly resolved     keywords:
+41 silly resolved      [ 'express',
+41 silly resolved        'framework',
+41 silly resolved        'sinatra',
+41 silly resolved        'web',
+41 silly resolved        'rest',
+41 silly resolved        'restful',
+41 silly resolved        'router',
+41 silly resolved        'app',
+41 silly resolved        'api' ],
+41 silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/express' },
+41 silly resolved     main: 'index',
+41 silly resolved     bin: { express: './bin/express' },
+41 silly resolved     scripts: { prepublish: 'npm prune', test: 'make test' },
+41 silly resolved     engines: { node: '*' },
+41 silly resolved     readme: '![express logo](http://f.cl.ly/items/0V2S1n0K1i3y1c122g04/Screen%20Shot%202012-04-11%20at%209.59.42%20AM.png)\n\n  Fast, unopinionated, minimalist web framework for [node](http://nodejs.org). [![Build Status](https://secure.travis-ci.org/visionmedia/express.png)](http://travis-ci.org/visionmedia/express) [![Dependency Status](https://gemnasium.com/visionmedia/express.png)](https://gemnasium.com/visionmedia/express)\n\n```js\nvar express = require(\'express\');\nvar app = express();\n\napp.get(\'/\', function(req, res){\n  res.send(\'Hello World\');\n});\n\napp.listen(3000);\n```\n\n## Installation\n\n    $ npm install -g express\n\n## Quick Start\n\n The quickest way to get started with express is to utilize the executable `express(1)` to generate an application as shown below:\n\n Create the app:\n\n    $ npm install -g express\n    $ express /tmp/foo && cd /tmp/foo\n\n Install dependencies:\n\n    $ npm install\n\n Start the server:\n\n    $ node app\n\n## Features\n\n  * Built on [Connect](http://github.com/senchalabs/connect)\n  * Robust routing\n  * HTTP helpers (redirection, caching, etc)\n  * View system supporting 14+ template engines\n  * Content negotiation\n  * Focus on high performance\n  * Environment based configuration\n  * Executable for generating applications quickly\n  * High test coverage\n\n## Philosophy\n\n  The Express philosophy is to provide small, robust tooling for HTTP servers. Making\n  it a great solution for single page applications, web sites, hybrids, or public\n  HTTP APIs.\n\n  Built on Connect you can use _only_ what you need, and nothing more, applications\n  can be as big or as small as you like, even a single file. Express does\n  not force you to use any specific ORM or template engine. With support for over\n  14 template engines via [Consolidate.js](http://github.com/visionmedia/consolidate.js)\n  you can quickly craft your perfect framework.\n\n## More Information\n\n  * Join #express on freenode\n  * [Google Group](http://groups.google.com/group/express-js) for discussion\n  * Follow [tjholowaychuk](http://twitter.com/tjholowaychuk) on twitter for updates\n  * Visit the [Wiki](http://github.com/visionmedia/express/wiki)\n  * [Русскоязычная документация](http://jsman.ru/express/)\n  * Run express examples [online](https://runnable.com/express)\n\n## Viewing Examples\n\nClone the Express repo, then install the dev dependencies to install all the example / test suite deps:\n\n    $ git clone git://github.com/visionmedia/express.git --depth 1\n    $ cd express\n    $ npm install\n\nthen run whichever tests you want:\n\n    $ node examples/content-negotiation\n\n## Running Tests\n\nTo run the test suite first invoke the following command within the repo, installing the development dependencies:\n\n    $ npm install\n\nthen run the tests:\n\n    $ make test\n\n## Contributors\n\n```\nproject: express\ncommits: 3559\nactive : 468 days\nfiles  : 237\nauthors:\n 1891\tTj Holowaychuk          53.1%\n 1285\tvisionmedia             36.1%\n  182\tTJ Holowaychuk          5.1%\n   54\tAaron Heckmann          1.5%\n   34\tcsausdev                1.0%\n   26\tciaranj                 0.7%\n   21\tRobert Sköld            0.6%\n    6\tGuillermo Rauch         0.2%\n    3\tDav Glass               0.1%\n    3\tNick Poulden            0.1%\n    2\tRandy Merrill           0.1%\n    2\tBenny Wong              0.1%\n    2\tHunter Loftis           0.1%\n    2\tJake Gordon             0.1%\n    2\tBrian McKinney          0.1%\n    2\tRoman Shtylman          0.1%\n    2\tBen Weaver              0.1%\n    2\tDave Hoover             0.1%\n    2\tEivind Fjeldstad        0.1%\n    2\tDaniel Shaw             0.1%\n    1\tMatt Colyer             0.0%\n    1\tPau Ramon               0.0%\n    1\tPero Pejovic            0.0%\n    1\tPeter Rekdal Sunde      0.0%\n    1\tRaynos                  0.0%\n    1\tTeng Siong Ong          0.0%\n    1\tViktor Kelemen          0.0%\n    1\tctide                   0.0%\n    1\t8bitDesigner            0.0%\n    1\tisaacs                  0.0%\n    1\tmgutz                   0.0%\n    1\tpikeas                  0.0%\n    1\tshuwatto                0.0%\n    1\ttstrimple               0.0%\n    1\tewoudj                  0.0%\n    1\tAdam Sanderson          0.0%\n    1\tAndrii Kostenko         0.0%\n    1\tAndy Hiew               0.0%\n    1\tArpad Borsos            0.0%\n    1\tAshwin Purohit          0.0%\n    1\tBenjen                  0.0%\n    1\tDarren Torpey           0.0%\n    1\tGreg Ritter             0.0%\n    1\tGregory Ritter          0.0%\n    1\tJames Herdman           0.0%\n    1\tJim Snodgrass           0.0%\n    1\tJoe McCann              0.0%\n    1\tJonathan Dumaine        0.0%\n    1\tJonathan Palardy        0.0%\n    1\tJonathan Zacsh          0.0%\n    1\tJustin Lilly            0.0%\n    1\tKen Sato                0.0%\n    1\tMaciej Małecki          0.0%\n    1\tMasahiro Hayashi        0.0%\n```\n\n## License\n\n(The MIT License)\n\nCopyright (c) 2009-2012 TJ Holowaychuk &lt;tj@vision-media.ca&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+41 silly resolved     readmeFilename: 'Readme.md',
+41 silly resolved     bugs: { url: 'https://github.com/visionmedia/express/issues' },
+41 silly resolved     _id: 'express@3.2.6',
+41 silly resolved     _from: 'express@~3.2.6' } ]
+42 info install express@3.2.6 into /home/protech/kurento/kurento-composite-conference-recording-nodejs
+43 info installOne express@3.2.6
+44 info /home/protech/kurento/kurento-composite-conference-recording-nodejs/node_modules/express unbuild
+45 verbose tar unpack /home/protech/.npm/express/3.2.6/package.tgz
+46 silly lockFile d7316354-ding-nodejs-node-modules-express tar:///home/protech/kurento/kurento-composite-conference-recording-nodejs/node_modules/express
+47 verbose lock tar:///home/protech/kurento/kurento-composite-conference-recording-nodejs/node_modules/express /home/protech/.npm/d7316354-ding-nodejs-node-modules-express.lock
+48 silly lockFile 8b047e5a-ch-npm-express-3-2-6-package-tgz tar:///home/protech/.npm/express/3.2.6/package.tgz
+49 verbose lock tar:///home/protech/.npm/express/3.2.6/package.tgz /home/protech/.npm/8b047e5a-ch-npm-express-3-2-6-package-tgz.lock
+50 silly gunzTarPerm modes [ '755', '644' ]
+51 silly gunzTarPerm extractEntry package.json
+52 silly gunzTarPerm extractEntry .npmignore
+53 silly gunzTarPerm extractEntry LICENSE
+54 silly gunzTarPerm extractEntry index.js
+55 silly gunzTarPerm extractEntry test.js
+56 silly gunzTarPerm extractEntry .travis.yml
+57 silly gunzTarPerm extractEntry bin/express
+58 silly gunzTarPerm extractEntry Makefile
+59 silly gunzTarPerm extractEntry lib/application.js
+60 silly gunzTarPerm extractEntry lib/express.js
+61 silly gunzTarPerm extractEntry lib/middleware.js
+62 silly gunzTarPerm extractEntry lib/request.js
+63 silly gunzTarPerm extractEntry lib/response.js
+64 silly gunzTarPerm extractEntry lib/utils.js
+65 silly gunzTarPerm extractEntry lib/view.js
+66 silly gunzTarPerm extractEntry lib/router/index.js
+67 silly gunzTarPerm extractEntry lib/router/route.js
+68 silly gunzTarPerm extractEntry History.md
+69 silly gunzTarPerm extractEntry Readme.md
+70 silly lockFile d7316354-ding-nodejs-node-modules-express tar:///home/protech/kurento/kurento-composite-conference-recording-nodejs/node_modules/express
+71 silly lockFile d7316354-ding-nodejs-node-modules-express tar:///home/protech/kurento/kurento-composite-conference-recording-nodejs/node_modules/express
+72 silly lockFile 8b047e5a-ch-npm-express-3-2-6-package-tgz tar:///home/protech/.npm/express/3.2.6/package.tgz
+73 silly lockFile 8b047e5a-ch-npm-express-3-2-6-package-tgz tar:///home/protech/.npm/express/3.2.6/package.tgz
+74 info preinstall express@3.2.6
+75 verbose readDependencies using package.json deps
+76 verbose readDependencies using package.json deps
+77 verbose cache add [ 'connect@2.7.11', null ]
+78 verbose cache add name=undefined spec="connect@2.7.11" args=["connect@2.7.11",null]
+79 verbose parsed url { protocol: null,
+79 verbose parsed url   slashes: null,
+79 verbose parsed url   auth: null,
+79 verbose parsed url   host: null,
+79 verbose parsed url   port: null,
+79 verbose parsed url   hostname: null,
+79 verbose parsed url   hash: null,
+79 verbose parsed url   search: null,
+79 verbose parsed url   query: null,
+79 verbose parsed url   pathname: 'connect@2.7.11',
+79 verbose parsed url   path: 'connect@2.7.11',
+79 verbose parsed url   href: 'connect@2.7.11' }
+80 verbose cache add name="connect" spec="2.7.11" args=["connect","2.7.11"]
+81 verbose parsed url { protocol: null,
+81 verbose parsed url   slashes: null,
+81 verbose parsed url   auth: null,
+81 verbose parsed url   host: null,
+81 verbose parsed url   port: null,
+81 verbose parsed url   hostname: null,
+81 verbose parsed url   hash: null,
+81 verbose parsed url   search: null,
+81 verbose parsed url   query: null,
+81 verbose parsed url   pathname: '2.7.11',
+81 verbose parsed url   path: '2.7.11',
+81 verbose parsed url   href: '2.7.11' }
+82 verbose addNamed [ 'connect', '2.7.11' ]
+83 verbose addNamed [ '2.7.11', '2.7.11' ]
+84 silly lockFile 4ba73353-connect-2-7-11 connect@2.7.11
+85 verbose lock connect@2.7.11 /home/protech/.npm/4ba73353-connect-2-7-11.lock
+86 verbose cache add [ 'commander@0.6.1', null ]
+87 verbose cache add name=undefined spec="commander@0.6.1" args=["commander@0.6.1",null]
+88 verbose parsed url { protocol: null,
+88 verbose parsed url   slashes: null,
+88 verbose parsed url   auth: null,
+88 verbose parsed url   host: null,
+88 verbose parsed url   port: null,
+88 verbose parsed url   hostname: null,
+88 verbose parsed url   hash: null,
+88 verbose parsed url   search: null,
+88 verbose parsed url   query: null,
+88 verbose parsed url   pathname: 'commander@0.6.1',
+88 verbose parsed url   path: 'commander@0.6.1',
+88 verbose parsed url   href: 'commander@0.6.1' }
+89 verbose cache add name="commander" spec="0.6.1" args=["commander","0.6.1"]
+90 verbose parsed url { protocol: null,
+90 verbose parsed url   slashes: null,
+90 verbose parsed url   auth: null,
+90 verbose parsed url   host: null,
+90 verbose parsed url   port: null,
+90 verbose parsed url   hostname: null,
+90 verbose parsed url   hash: null,
+90 verbose parsed url   search: null,
+90 verbose parsed url   query: null,
+90 verbose parsed url   pathname: '0.6.1',
+90 verbose parsed url   path: '0.6.1',
+90 verbose parsed url   href: '0.6.1' }
+91 verbose addNamed [ 'commander', '0.6.1' ]
+92 verbose addNamed [ '0.6.1', '0.6.1' ]
+93 silly lockFile fa16a2ce-commander-0-6-1 commander@0.6.1
+94 verbose lock commander@0.6.1 /home/protech/.npm/fa16a2ce-commander-0-6-1.lock
+95 verbose cache add [ 'range-parser@0.0.4', null ]
+96 verbose cache add name=undefined spec="range-parser@0.0.4" args=["range-parser@0.0.4",null]
+97 verbose parsed url { protocol: null,
+97 verbose parsed url   slashes: null,
+97 verbose parsed url   auth: null,
+97 verbose parsed url   host: null,
+97 verbose parsed url   port: null,
+97 verbose parsed url   hostname: null,
+97 verbose parsed url   hash: null,
+97 verbose parsed url   search: null,
+97 verbose parsed url   query: null,
+97 verbose parsed url   pathname: 'range-parser@0.0.4',
+97 verbose parsed url   path: 'range-parser@0.0.4',
+97 verbose parsed url   href: 'range-parser@0.0.4' }
+98 verbose cache add name="range-parser" spec="0.0.4" args=["range-parser","0.0.4"]
+99 verbose parsed url { protocol: null,
+99 verbose parsed url   slashes: null,
+99 verbose parsed url   auth: null,
+99 verbose parsed url   host: null,
+99 verbose parsed url   port: null,
+99 verbose parsed url   hostname: null,
+99 verbose parsed url   hash: null,
+99 verbose parsed url   search: null,
+99 verbose parsed url   query: null,
+99 verbose parsed url   pathname: '0.0.4',
+99 verbose parsed url   path: '0.0.4',
+99 verbose parsed url   href: '0.0.4' }
+100 verbose addNamed [ 'range-parser', '0.0.4' ]
+101 verbose addNamed [ '0.0.4', '0.0.4' ]
+102 silly lockFile 0760c556-range-parser-0-0-4 range-parser@0.0.4
+103 verbose lock range-parser@0.0.4 /home/protech/.npm/0760c556-range-parser-0-0-4.lock
+104 verbose cache add [ 'mkdirp@0.3.4', null ]
+105 verbose cache add name=undefined spec="mkdirp@0.3.4" args=["mkdirp@0.3.4",null]
+106 verbose parsed url { protocol: null,
+106 verbose parsed url   slashes: null,
+106 verbose parsed url   auth: null,
+106 verbose parsed url   host: null,
+106 verbose parsed url   port: null,
+106 verbose parsed url   hostname: null,
+106 verbose parsed url   hash: null,
+106 verbose parsed url   search: null,
+106 verbose parsed url   query: null,
+106 verbose parsed url   pathname: 'mkdirp@0.3.4',
+106 verbose parsed url   path: 'mkdirp@0.3.4',
+106 verbose parsed url   href: 'mkdirp@0.3.4' }
+107 verbose cache add name="mkdirp" spec="0.3.4" args=["mkdirp","0.3.4"]
+108 verbose parsed url { protocol: null,
+108 verbose parsed url   slashes: null,
+108 verbose parsed url   auth: null,
+108 verbose parsed url   host: null,
+108 verbose parsed url   port: null,
+108 verbose parsed url   hostname: null,
+108 verbose parsed url   hash: null,
+108 verbose parsed url   search: null,
+108 verbose parsed url   query: null,
+108 verbose parsed url   pathname: '0.3.4',
+108 verbose parsed url   path: '0.3.4',
+108 verbose parsed url   href: '0.3.4' }
+109 verbose addNamed [ 'mkdirp', '0.3.4' ]
+110 verbose addNamed [ '0.3.4', '0.3.4' ]
+111 silly lockFile 86f43333-mkdirp-0-3-4 mkdirp@0.3.4
+112 verbose lock mkdirp@0.3.4 /home/protech/.npm/86f43333-mkdirp-0-3-4.lock
+113 verbose cache add [ 'cookie@0.1.0', null ]
+114 verbose cache add name=undefined spec="cookie@0.1.0" args=["cookie@0.1.0",null]
+115 verbose parsed url { protocol: null,
+115 verbose parsed url   slashes: null,
+115 verbose parsed url   auth: null,
+115 verbose parsed url   host: null,
+115 verbose parsed url   port: null,
+115 verbose parsed url   hostname: null,
+115 verbose parsed url   hash: null,
+115 verbose parsed url   search: null,
+115 verbose parsed url   query: null,
+115 verbose parsed url   pathname: 'cookie@0.1.0',
+115 verbose parsed url   path: 'cookie@0.1.0',
+115 verbose parsed url   href: 'cookie@0.1.0' }
+116 verbose cache add name="cookie" spec="0.1.0" args=["cookie","0.1.0"]
+117 verbose parsed url { protocol: null,
+117 verbose parsed url   slashes: null,
+117 verbose parsed url   auth: null,
+117 verbose parsed url   host: null,
+117 verbose parsed url   port: null,
+117 verbose parsed url   hostname: null,
+117 verbose parsed url   hash: null,
+117 verbose parsed url   search: null,
+117 verbose parsed url   query: null,
+117 verbose parsed url   pathname: '0.1.0',
+117 verbose parsed url   path: '0.1.0',
+117 verbose parsed url   href: '0.1.0' }
+118 verbose addNamed [ 'cookie', '0.1.0' ]
+119 verbose addNamed [ '0.1.0', '0.1.0' ]
+120 silly lockFile b55e145e-cookie-0-1-0 cookie@0.1.0
+121 verbose lock cookie@0.1.0 /home/protech/.npm/b55e145e-cookie-0-1-0.lock
+122 verbose cache add [ 'buffer-crc32@0.2.1', null ]
+123 verbose cache add name=undefined spec="buffer-crc32@0.2.1" args=["buffer-crc32@0.2.1",null]
+124 verbose parsed url { protocol: null,
+124 verbose parsed url   slashes: null,
+124 verbose parsed url   auth: null,
+124 verbose parsed url   host: null,
+124 verbose parsed url   port: null,
+124 verbose parsed url   hostname: null,
+124 verbose parsed url   hash: null,
+124 verbose parsed url   search: null,
+124 verbose parsed url   query: null,
+124 verbose parsed url   pathname: 'buffer-crc32@0.2.1',
+124 verbose parsed url   path: 'buffer-crc32@0.2.1',
+124 verbose parsed url   href: 'buffer-crc32@0.2.1' }
+125 verbose cache add name="buffer-crc32" spec="0.2.1" args=["buffer-crc32","0.2.1"]
+126 verbose parsed url { protocol: null,
+126 verbose parsed url   slashes: null,
+126 verbose parsed url   auth: null,
+126 verbose parsed url   host: null,
+126 verbose parsed url   port: null,
+126 verbose parsed url   hostname: null,
+126 verbose parsed url   hash: null,
+126 verbose parsed url   search: null,
+126 verbose parsed url   query: null,
+126 verbose parsed url   pathname: '0.2.1',
+126 verbose parsed url   path: '0.2.1',
+126 verbose parsed url   href: '0.2.1' }
+127 verbose addNamed [ 'buffer-crc32', '0.2.1' ]
+128 verbose addNamed [ '0.2.1', '0.2.1' ]
+129 silly lockFile 057d0d26-buffer-crc32-0-2-1 buffer-crc32@0.2.1
+130 verbose lock buffer-crc32@0.2.1 /home/protech/.npm/057d0d26-buffer-crc32-0-2-1.lock
+131 verbose cache add [ 'fresh@0.1.0', null ]
+132 verbose cache add name=undefined spec="fresh@0.1.0" args=["fresh@0.1.0",null]
+133 verbose parsed url { protocol: null,
+133 verbose parsed url   slashes: null,
+133 verbose parsed url   auth: null,
+133 verbose parsed url   host: null,
+133 verbose parsed url   port: null,
+133 verbose parsed url   hostname: null,
+133 verbose parsed url   hash: null,
+133 verbose parsed url   search: null,
+133 verbose parsed url   query: null,
+133 verbose parsed url   pathname: 'fresh@0.1.0',
+133 verbose parsed url   path: 'fresh@0.1.0',
+133 verbose parsed url   href: 'fresh@0.1.0' }
+134 verbose cache add name="fresh" spec="0.1.0" args=["fresh","0.1.0"]
+135 verbose parsed url { protocol: null,
+135 verbose parsed url   slashes: null,
+135 verbose parsed url   auth: null,
+135 verbose parsed url   host: null,
+135 verbose parsed url   port: null,
+135 verbose parsed url   hostname: null,
+135 verbose parsed url   hash: null,
+135 verbose parsed url   search: null,
+135 verbose parsed url   query: null,
+135 verbose parsed url   pathname: '0.1.0',
+135 verbose parsed url   path: '0.1.0',
+135 verbose parsed url   href: '0.1.0' }
+136 verbose addNamed [ 'fresh', '0.1.0' ]
+137 verbose addNamed [ '0.1.0', '0.1.0' ]
+138 silly lockFile 3dea7da8-fresh-0-1-0 fresh@0.1.0
+139 verbose lock fresh@0.1.0 /home/protech/.npm/3dea7da8-fresh-0-1-0.lock
+140 verbose cache add [ 'methods@0.0.1', null ]
+141 verbose cache add name=undefined spec="methods@0.0.1" args=["methods@0.0.1",null]
+142 verbose parsed url { protocol: null,
+142 verbose parsed url   slashes: null,
+142 verbose parsed url   auth: null,
+142 verbose parsed url   host: null,
+142 verbose parsed url   port: null,
+142 verbose parsed url   hostname: null,
+142 verbose parsed url   hash: null,
+142 verbose parsed url   search: null,
+142 verbose parsed url   query: null,
+142 verbose parsed url   pathname: 'methods@0.0.1',
+142 verbose parsed url   path: 'methods@0.0.1',
+142 verbose parsed url   href: 'methods@0.0.1' }
+143 verbose cache add name="methods" spec="0.0.1" args=["methods","0.0.1"]
+144 verbose parsed url { protocol: null,
+144 verbose parsed url   slashes: null,
+144 verbose parsed url   auth: null,
+144 verbose parsed url   host: null,
+144 verbose parsed url   port: null,
+144 verbose parsed url   hostname: null,
+144 verbose parsed url   hash: null,
+144 verbose parsed url   search: null,
+144 verbose parsed url   query: null,
+144 verbose parsed url   pathname: '0.0.1',
+144 verbose parsed url   path: '0.0.1',
+144 verbose parsed url   href: '0.0.1' }
+145 verbose addNamed [ 'methods', '0.0.1' ]
+146 verbose addNamed [ '0.0.1', '0.0.1' ]
+147 silly lockFile 209c2920-methods-0-0-1 methods@0.0.1
+148 verbose lock methods@0.0.1 /home/protech/.npm/209c2920-methods-0-0-1.lock
+149 verbose cache add [ 'send@0.1.0', null ]
+150 verbose cache add name=undefined spec="send@0.1.0" args=["send@0.1.0",null]
+151 verbose parsed url { protocol: null,
+151 verbose parsed url   slashes: null,
+151 verbose parsed url   auth: null,
+151 verbose parsed url   host: null,
+151 verbose parsed url   port: null,
+151 verbose parsed url   hostname: null,
+151 verbose parsed url   hash: null,
+151 verbose parsed url   search: null,
+151 verbose parsed url   query: null,
+151 verbose parsed url   pathname: 'send@0.1.0',
+151 verbose parsed url   path: 'send@0.1.0',
+151 verbose parsed url   href: 'send@0.1.0' }
+152 verbose cache add name="send" spec="0.1.0" args=["send","0.1.0"]
+153 verbose parsed url { protocol: null,
+153 verbose parsed url   slashes: null,
+153 verbose parsed url   auth: null,
+153 verbose parsed url   host: null,
+153 verbose parsed url   port: null,
+153 verbose parsed url   hostname: null,
+153 verbose parsed url   hash: null,
+153 verbose parsed url   search: null,
+153 verbose parsed url   query: null,
+153 verbose parsed url   pathname: '0.1.0',
+153 verbose parsed url   path: '0.1.0',
+153 verbose parsed url   href: '0.1.0' }
+154 verbose addNamed [ 'send', '0.1.0' ]
+155 verbose addNamed [ '0.1.0', '0.1.0' ]
+156 silly lockFile ef2886cd-send-0-1-0 send@0.1.0
+157 verbose lock send@0.1.0 /home/protech/.npm/ef2886cd-send-0-1-0.lock
+158 verbose cache add [ 'cookie-signature@1.0.1', null ]
+159 verbose cache add name=undefined spec="cookie-signature@1.0.1" args=["cookie-signature@1.0.1",null]
+160 verbose parsed url { protocol: null,
+160 verbose parsed url   slashes: null,
+160 verbose parsed url   auth: null,
+160 verbose parsed url   host: null,
+160 verbose parsed url   port: null,
+160 verbose parsed url   hostname: null,
+160 verbose parsed url   hash: null,
+160 verbose parsed url   search: null,
+160 verbose parsed url   query: null,
+160 verbose parsed url   pathname: 'cookie-signature@1.0.1',
+160 verbose parsed url   path: 'cookie-signature@1.0.1',
+160 verbose parsed url   href: 'cookie-signature@1.0.1' }
+161 verbose cache add name="cookie-signature" spec="1.0.1" args=["cookie-signature","1.0.1"]
+162 verbose parsed url { protocol: null,
+162 verbose parsed url   slashes: null,
+162 verbose parsed url   auth: null,
+162 verbose parsed url   host: null,
+162 verbose parsed url   port: null,
+162 verbose parsed url   hostname: null,
+162 verbose parsed url   hash: null,
+162 verbose parsed url   search: null,
+162 verbose parsed url   query: null,
+162 verbose parsed url   pathname: '1.0.1',
+162 verbose parsed url   path: '1.0.1',
+162 verbose parsed url   href: '1.0.1' }
+163 verbose addNamed [ 'cookie-signature', '1.0.1' ]
+164 verbose addNamed [ '1.0.1', '1.0.1' ]
+165 silly lockFile d4a1eba1-cookie-signature-1-0-1 cookie-signature@1.0.1
+166 verbose lock cookie-signature@1.0.1 /home/protech/.npm/d4a1eba1-cookie-signature-1-0-1.lock
+167 verbose cache add [ 'debug@*', null ]
+168 verbose cache add name=undefined spec="debug@*" args=["debug@*",null]
+169 verbose parsed url { protocol: null,
+169 verbose parsed url   slashes: null,
+169 verbose parsed url   auth: null,
+169 verbose parsed url   host: null,
+169 verbose parsed url   port: null,
+169 verbose parsed url   hostname: null,
+169 verbose parsed url   hash: null,
+169 verbose parsed url   search: null,
+169 verbose parsed url   query: null,
+169 verbose parsed url   pathname: 'debug@*',
+169 verbose parsed url   path: 'debug@*',
+169 verbose parsed url   href: 'debug@*' }
+170 verbose cache add name="debug" spec="*" args=["debug","*"]
+171 verbose parsed url { protocol: null,
+171 verbose parsed url   slashes: null,
+171 verbose parsed url   auth: null,
+171 verbose parsed url   host: null,
+171 verbose parsed url   port: null,
+171 verbose parsed url   hostname: null,
+171 verbose parsed url   hash: null,
+171 verbose parsed url   search: null,
+171 verbose parsed url   query: null,
+171 verbose parsed url   pathname: '*',
+171 verbose parsed url   path: '*',
+171 verbose parsed url   href: '*' }
+172 verbose addNamed [ 'debug', '*' ]
+173 verbose addNamed [ null, '*' ]
+174 silly lockFile 3ac45eff-debug debug@*
+175 verbose lock debug@* /home/protech/.npm/3ac45eff-debug.lock
+176 silly addNameRange { name: 'debug', range: '*', hasData: false }
+177 verbose url raw send/0.1.0
+178 verbose url resolving [ 'https://registry.npmjs.org/', './send/0.1.0' ]
+179 verbose url resolved https://registry.npmjs.org/send/0.1.0
+180 info trying registry request attempt 1 at 04:08:05
+181 http GET https://registry.npmjs.org/send/0.1.0
+182 verbose url raw connect/2.7.11
+183 verbose url resolving [ 'https://registry.npmjs.org/', './connect/2.7.11' ]
+184 verbose url resolved https://registry.npmjs.org/connect/2.7.11
+185 info trying registry request attempt 1 at 04:08:05
+186 verbose etag "F2FMU8ZJPMF0FJ4891QVX31FF"
+187 http GET https://registry.npmjs.org/connect/2.7.11
+188 verbose url raw commander/0.6.1
+189 verbose url resolving [ 'https://registry.npmjs.org/', './commander/0.6.1' ]
+190 verbose url resolved https://registry.npmjs.org/commander/0.6.1
+191 info trying registry request attempt 1 at 04:08:05
+192 verbose etag "8MMIG46BNV1DB57XWRKM6PENP"
+193 http GET https://registry.npmjs.org/commander/0.6.1
+194 verbose url raw range-parser/0.0.4
+195 verbose url resolving [ 'https://registry.npmjs.org/', './range-parser/0.0.4' ]
+196 verbose url resolved https://registry.npmjs.org/range-parser/0.0.4
+197 info trying registry request attempt 1 at 04:08:05
+198 verbose etag "4UJBODAL41VKYCNRX6BBMBIF7"
+199 http GET https://registry.npmjs.org/range-parser/0.0.4
+200 verbose url raw mkdirp/0.3.4
+201 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp/0.3.4' ]
+202 verbose url resolved https://registry.npmjs.org/mkdirp/0.3.4
+203 info trying registry request attempt 1 at 04:08:05
+204 verbose etag "4PH72MHDKPUQ0CP0Y61GAYKS"
+205 http GET https://registry.npmjs.org/mkdirp/0.3.4
+206 verbose url raw cookie/0.1.0
+207 verbose url resolving [ 'https://registry.npmjs.org/', './cookie/0.1.0' ]
+208 verbose url resolved https://registry.npmjs.org/cookie/0.1.0
+209 info trying registry request attempt 1 at 04:08:05
+210 verbose etag "DYCE848E7K29Y73P4DUE9LHCR"
+211 http GET https://registry.npmjs.org/cookie/0.1.0
+212 verbose url raw buffer-crc32/0.2.1
+213 verbose url resolving [ 'https://registry.npmjs.org/', './buffer-crc32/0.2.1' ]
+214 verbose url resolved https://registry.npmjs.org/buffer-crc32/0.2.1
+215 info trying registry request attempt 1 at 04:08:05
+216 verbose etag "CR10R1H9CLVA9L87RE1JJV0SA"
+217 http GET https://registry.npmjs.org/buffer-crc32/0.2.1
+218 verbose url raw fresh/0.1.0
+219 verbose url resolving [ 'https://registry.npmjs.org/', './fresh/0.1.0' ]
+220 verbose url resolved https://registry.npmjs.org/fresh/0.1.0
+221 info trying registry request attempt 1 at 04:08:05
+222 verbose etag "275FBQ7DYYZ88WZ6SWZ0PBCR1"
+223 http GET https://registry.npmjs.org/fresh/0.1.0
+224 verbose url raw methods/0.0.1
+225 verbose url resolving [ 'https://registry.npmjs.org/', './methods/0.0.1' ]
+226 verbose url resolved https://registry.npmjs.org/methods/0.0.1
+227 info trying registry request attempt 1 at 04:08:05
+228 verbose etag "A1PHPSQRGFQ0WGUCHHX8ELIP4"
+229 http GET https://registry.npmjs.org/methods/0.0.1
+230 verbose url raw debug
+231 verbose url resolving [ 'https://registry.npmjs.org/', './debug' ]
+232 verbose url resolved https://registry.npmjs.org/debug
+233 info trying registry request attempt 1 at 04:08:05
+234 verbose etag "QB5EZS7974CB6E4FPB17NJB4"
+235 http GET https://registry.npmjs.org/debug
+236 verbose url raw cookie-signature/1.0.1
+237 verbose url resolving [ 'https://registry.npmjs.org/', './cookie-signature/1.0.1' ]
+238 verbose url resolved https://registry.npmjs.org/cookie-signature/1.0.1
+239 info trying registry request attempt 1 at 04:08:05
+240 verbose etag "9AG3R5JH5HMV65ARYCI0N9W2P"
+241 http GET https://registry.npmjs.org/cookie-signature/1.0.1
+242 http 200 https://registry.npmjs.org/send/0.1.0
+243 verbose bad json �     �R�n�0�AǡV�6K����Æ�n��(h���ؒ!�I� �>�N�a�� Hz"��t�:���y#�����*՜�IG��	}Ĝ1��#B�|C'�N�ڵ(F�����A��q�m��ӳHC߇��z��C�&��O9��L�M\��Fm�rszo�����p���Îb��R�y��w�~ѡq�4�3�Iz��*��^E��΍�Ku��\;b�h�,��!R7#<W��r��k��k�ah��e�1fL�BPR�G�ȭzc�i�c{��v(�3=�>�đ�7JuLΎ=\]r\�$��4t���j~���Ө�ժ�%ܭ̺��x���U���r�g��<@�s���"6D����6����V�5Un~q�����iJ�4KV���qjW�����k,9�"j��E�B޻Hsq��|������  
+244 error registry error parsing json
+245 silly registry.get cb [ 200,
+245 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+245 silly registry.get     etag: '"E3TWJQBA3XL37U9M205VWQL4E"',
+245 silly registry.get     'content-type': 'application/json',
+245 silly registry.get     'content-encoding': 'gzip',
+245 silly registry.get     'cache-control': 'max-age=300',
+245 silly registry.get     'content-length': '433',
+245 silly registry.get     'accept-ranges': 'bytes',
+245 silly registry.get     date: 'Wed, 06 Apr 2016 09:07:58 GMT',
+245 silly registry.get     via: '1.1 varnish',
+245 silly registry.get     age: '206',
+245 silly registry.get     connection: 'keep-alive',
+245 silly registry.get     'x-served-by': 'cache-dfw1834-DFW',
+245 silly registry.get     'x-cache': 'HIT',
+245 silly registry.get     'x-cache-hits': '1',
+245 silly registry.get     'x-timer': 'S1459933678.850752,VS0,VE0',
+245 silly registry.get     vary: 'Accept' } ]
+246 silly lockFile ef2886cd-send-0-1-0 send@0.1.0
+247 silly lockFile ef2886cd-send-0-1-0 send@0.1.0
+248 http 304 https://registry.npmjs.org/mkdirp/0.3.4
+249 silly registry.get cb [ 304,
+249 silly registry.get   { date: 'Wed, 06 Apr 2016 09:07:58 GMT',
+249 silly registry.get     via: '1.1 varnish',
+249 silly registry.get     'cache-control': 'max-age=300',
+249 silly registry.get     etag: '"4PH72MHDKPUQ0CP0Y61GAYKS"',
+249 silly registry.get     age: '206',
+249 silly registry.get     connection: 'keep-alive',
+249 silly registry.get     'x-served-by': 'cache-dfw1830-DFW',
+249 silly registry.get     'x-cache': 'HIT',
+249 silly registry.get     'x-cache-hits': '1',
+249 silly registry.get     'x-timer': 'S1459933678.850777,VS0,VE0',
+249 silly registry.get     vary: 'Accept' } ]
+250 verbose etag mkdirp/0.3.4 from cache
+251 http 304 https://registry.npmjs.org/connect/2.7.11
+252 silly registry.get cb [ 304,
+252 silly registry.get   { date: 'Wed, 06 Apr 2016 09:07:58 GMT',
+252 silly registry.get     via: '1.1 varnish',
+252 silly registry.get     'cache-control': 'max-age=300',
+252 silly registry.get     etag: '"F2FMU8ZJPMF0FJ4891QVX31FF"',
+252 silly registry.get     age: '206',
+252 silly registry.get     connection: 'keep-alive',
+252 silly registry.get     'x-served-by': 'cache-dfw1829-DFW',
+252 silly registry.get     'x-cache': 'HIT',
+252 silly registry.get     'x-cache-hits': '1',
+252 silly registry.get     'x-timer': 'S1459933678.854917,VS0,VE0',
+252 silly registry.get     vary: 'Accept' } ]
+253 verbose etag connect/2.7.11 from cache
+254 http 304 https://registry.npmjs.org/commander/0.6.1
+255 silly registry.get cb [ 304,
+255 silly registry.get   { date: 'Wed, 06 Apr 2016 09:07:58 GMT',
+255 silly registry.get     via: '1.1 varnish',
+255 silly registry.get     'cache-control': 'max-age=300',
+255 silly registry.get     etag: '"8MMIG46BNV1DB57XWRKM6PENP"',
+255 silly registry.get     age: '206',
+255 silly registry.get     connection: 'keep-alive',
+255 silly registry.get     'x-served-by': 'cache-dfw1848-DFW',
+255 silly registry.get     'x-cache': 'HIT',
+255 silly registry.get     'x-cache-hits': '1',
+255 silly registry.get     'x-timer': 'S1459933678.857762,VS0,VE0',
+255 silly registry.get     vary: 'Accept' } ]
+256 verbose etag commander/0.6.1 from cache
+257 http 304 https://registry.npmjs.org/range-parser/0.0.4
+258 silly registry.get cb [ 304,
+258 silly registry.get   { date: 'Wed, 06 Apr 2016 09:07:58 GMT',
+258 silly registry.get     via: '1.1 varnish',
+258 silly registry.get     'cache-control': 'max-age=300',
+258 silly registry.get     etag: '"4UJBODAL41VKYCNRX6BBMBIF7"',
+258 silly registry.get     age: '273',
+258 silly registry.get     connection: 'keep-alive',
+258 silly registry.get     'x-served-by': 'cache-dfw1844-DFW',
+258 silly registry.get     'x-cache': 'HIT',
+258 silly registry.get     'x-cache-hits': '1',
+258 silly registry.get     'x-timer': 'S1459933678.858412,VS0,VE0',
+258 silly registry.get     vary: 'Accept' } ]
+259 verbose etag range-parser/0.0.4 from cache
+260 verbose about to build /home/protech/kurento/kurento-composite-conference-recording-nodejs/node_modules/express
+261 info /home/protech/kurento/kurento-composite-conference-recording-nodejs/node_modules/express unbuild
+262 info preuninstall express@3.2.6
+263 http 304 https://registry.npmjs.org/cookie/0.1.0
+264 silly registry.get cb [ 304,
+264 silly registry.get   { date: 'Wed, 06 Apr 2016 09:07:58 GMT',
+264 silly registry.get     via: '1.1 varnish',
+264 silly registry.get     'cache-control': 'max-age=300',
+264 silly registry.get     etag: '"DYCE848E7K29Y73P4DUE9LHCR"',
+264 silly registry.get     age: '206',
+264 silly registry.get     connection: 'keep-alive',
+264 silly registry.get     'x-served-by': 'cache-dfw1834-DFW',
+264 silly registry.get     'x-cache': 'HIT',
+264 silly registry.get     'x-cache-hits': '1',
+264 silly registry.get     'x-timer': 'S1459933678.869500,VS0,VE0',
+264 silly registry.get     vary: 'Accept' } ]
+265 verbose etag cookie/0.1.0 from cache
+266 info uninstall express@3.2.6
+267 http 304 https://registry.npmjs.org/buffer-crc32/0.2.1
+268 silly registry.get cb [ 304,
+268 silly registry.get   { date: 'Wed, 06 Apr 2016 09:07:58 GMT',
+268 silly registry.get     via: '1.1 varnish',
+268 silly registry.get     'cache-control': 'max-age=300',
+268 silly registry.get     etag: '"CR10R1H9CLVA9L87RE1JJV0SA"',
+268 silly registry.get     age: '288',
+268 silly registry.get     connection: 'keep-alive',
+268 silly registry.get     'x-served-by': 'cache-dfw1830-DFW',
+268 silly registry.get     'x-cache': 'HIT',
+268 silly registry.get     'x-cache-hits': '1',
+268 silly registry.get     'x-timer': 'S1459933678.872471,VS0,VE0',
+268 silly registry.get     vary: 'Accept' } ]
+269 verbose etag buffer-crc32/0.2.1 from cache
+270 http 304 https://registry.npmjs.org/fresh/0.1.0
+271 silly registry.get cb [ 304,
+271 silly registry.get   { date: 'Wed, 06 Apr 2016 09:07:58 GMT',
+271 silly registry.get     via: '1.1 varnish',
+271 silly registry.get     'cache-control': 'max-age=300',
+271 silly registry.get     etag: '"275FBQ7DYYZ88WZ6SWZ0PBCR1"',
+271 silly registry.get     age: '206',
+271 silly registry.get     connection: 'keep-alive',
+271 silly registry.get     'x-served-by': 'cache-dfw1829-DFW',
+271 silly registry.get     'x-cache': 'HIT',
+271 silly registry.get     'x-cache-hits': '1',
+271 silly registry.get     'x-timer': 'S1459933678.875026,VS0,VE0',
+271 silly registry.get     vary: 'Accept' } ]
+272 verbose etag fresh/0.1.0 from cache
+273 http 304 https://registry.npmjs.org/methods/0.0.1
+274 silly registry.get cb [ 304,
+274 silly registry.get   { date: 'Wed, 06 Apr 2016 09:07:58 GMT',
+274 silly registry.get     via: '1.1 varnish',
+274 silly registry.get     'cache-control': 'max-age=300',
+274 silly registry.get     etag: '"A1PHPSQRGFQ0WGUCHHX8ELIP4"',
+274 silly registry.get     age: '206',
+274 silly registry.get     connection: 'keep-alive',
+274 silly registry.get     'x-served-by': 'cache-dfw1848-DFW',
+274 silly registry.get     'x-cache': 'HIT',
+274 silly registry.get     'x-cache-hits': '1',
+274 silly registry.get     'x-timer': 'S1459933678.876638,VS0,VE0',
+274 silly registry.get     vary: 'Accept' } ]
+275 verbose etag methods/0.0.1 from cache
+276 verbose true,/home/protech/kurento/kurento-composite-conference-recording-nodejs/node_modules,/home/protech/kurento/kurento-composite-conference-recording-nodejs/node_modules unbuild express@3.2.6
+277 verbose /home/protech/kurento/kurento-composite-conference-recording-nodejs/node_modules/.bin,[object Object] binRoot
+278 http 304 https://registry.npmjs.org/cookie-signature/1.0.1
+279 silly registry.get cb [ 304,
+279 silly registry.get   { date: 'Wed, 06 Apr 2016 09:07:58 GMT',
+279 silly registry.get     via: '1.1 varnish',
+279 silly registry.get     'cache-control': 'max-age=300',
+279 silly registry.get     etag: '"9AG3R5JH5HMV65ARYCI0N9W2P"',
+279 silly registry.get     age: '288',
+279 silly registry.get     connection: 'keep-alive',
+279 silly registry.get     'x-served-by': 'cache-dfw1834-DFW',
+279 silly registry.get     'x-cache': 'HIT',
+279 silly registry.get     'x-cache-hits': '1',
+279 silly registry.get     'x-timer': 'S1459933678.886284,VS0,VE0',
+279 silly registry.get     vary: 'Accept' } ]
+280 verbose etag cookie-signature/1.0.1 from cache
+281 info postuninstall express@3.2.6
+282 silly lockFile 209c2920-methods-0-0-1 methods@0.0.1
+283 silly lockFile 209c2920-methods-0-0-1 methods@0.0.1
+284 silly lockFile fa16a2ce-commander-0-6-1 commander@0.6.1
+285 silly lockFile fa16a2ce-commander-0-6-1 commander@0.6.1
+286 silly lockFile 0760c556-range-parser-0-0-4 range-parser@0.0.4
+287 silly lockFile 0760c556-range-parser-0-0-4 range-parser@0.0.4
+288 silly lockFile 4ba73353-connect-2-7-11 connect@2.7.11
+289 silly lockFile 4ba73353-connect-2-7-11 connect@2.7.11
+290 silly lockFile 86f43333-mkdirp-0-3-4 mkdirp@0.3.4
+291 silly lockFile 86f43333-mkdirp-0-3-4 mkdirp@0.3.4
+292 silly lockFile b55e145e-cookie-0-1-0 cookie@0.1.0
+293 silly lockFile b55e145e-cookie-0-1-0 cookie@0.1.0
+294 silly lockFile 057d0d26-buffer-crc32-0-2-1 buffer-crc32@0.2.1
+295 silly lockFile 057d0d26-buffer-crc32-0-2-1 buffer-crc32@0.2.1
+296 silly lockFile 3dea7da8-fresh-0-1-0 fresh@0.1.0
+297 silly lockFile 3dea7da8-fresh-0-1-0 fresh@0.1.0
+298 error SyntaxError: Unexpected token 
+298 error �     �R�n�0�AǡV�6K����Æ�n��(h���ؒ!�I� �>�N�a�� Hz"��t�:���y#�����*՜�IG��	}Ĝ1��#B�|C'�N�ڵ(F�����A��q�m��ӳHC߇��z��C�&��O9��L�M\��Fm�rszo�����p���Îb��R�y��w�~ѡq�4�3�Iz��*��^E��΍�Ku��\;b�h�,��!R7#<W��r��k��k�ah��e�1fL�BPR�G�ȭzc�i�c{��v(�3=�>�đ�7JuLΎ=\]r\�$��4t���j~���Ө�ժ�%ܭ̺��x���U���r�g��<@�s���"6D����6����V�5Un~q�����iJ�4KV���qjW�����k,9�"j��E�B޻Hsq��|������  
+298 error     at Object.parse (native)
+298 error     at RegClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:238:23)
+298 error     at Request.self.callback (/usr/lib/nodejs/request/index.js:148:22)
+298 error     at Request.EventEmitter.emit (events.js:98:17)
+298 error     at Request.<anonymous> (/usr/lib/nodejs/request/index.js:896:14)
+298 error     at Request.EventEmitter.emit (events.js:117:20)
+298 error     at IncomingMessage.<anonymous> (/usr/lib/nodejs/request/index.js:847:12)
+298 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+298 error     at _stream_readable.js:920:16
+298 error     at process._tickCallback (node.js:415:13)
+299 error If you need help, you may report this log at:
+299 error     <http://github.com/isaacs/npm/issues>
+299 error or email it to:
+299 error     <npm-@googlegroups.com>
+300 error System Linux 3.19.0-25-generic
+301 error command "/usr/bin/nodejs" "/usr/bin/npm" "install"
+302 error cwd /home/protech/kurento/kurento-composite-conference-recording-nodejs
+303 error node -v v0.10.25
+304 error npm -v 1.3.10
+305 error type unexpected_token
+306 verbose exit [ 1, true ]
